@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                 child: const Center(
                   child:  Image(
                     fit: BoxFit.cover,
-                    image: AssetImage('assets/aa.png'),
+                    image: AssetImage('assets/images/aa.png'),
                   ),
                 ),
               ),
