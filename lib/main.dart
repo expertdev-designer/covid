@@ -1,4 +1,7 @@
 import 'package:api_tuto/home.dart';
+import 'package:api_tuto/put_post_get_delete/crud_by_post_delete_update/screens/home2.dart';
+import 'package:api_tuto/put_post_get_delete/home1_of_delete_only.dart';
+
 import 'package:api_tuto/sign_up.dart';
 import 'package:api_tuto/splash_screen.dart';
 import 'package:api_tuto/upload_images.dart';
@@ -18,6 +21,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+
       theme: ThemeData(
 
         //
@@ -26,7 +31,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:SignUpScreen(),
+
+      home:SplashScreen(),
     );
   }
 }
